@@ -1,0 +1,38 @@
+.google{
+    text-align: center;
+    margin-top: 200px;
+}
+.googlesearch{
+    border: 1px solid rgb(218, 218, 218);
+    border-radius: 2em;
+    width: 552px;
+    height: 42px;
+    box-shadow: px px 5px rgb(212, 212, 212);
+    margin: 0 auto;
+}
+#main{
+    width: 440px;
+    height: 40px;
+    border: none;
+    outline: none;
+    font-size: 18xp;
+    color: rgb(168, 18, 18);
+    margin-left: 10px;
+
+}
+
+.search{
+    height: 30px;
+    margin-left: 10px;
+}
+.yuyin{
+    height: 35px;
+    margin-top: 0px
+}
+#main,.search,.yuyin{
+    vertical-align: middle;
+
+}
+body{
+    width: 100%;min-width: 200px;
+}

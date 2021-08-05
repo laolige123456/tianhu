@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>天狐</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <script src="./js/index.js"></script>
+    <link rel="icon" href="/html/img/favicon.ico" type="image/x-icon"/>
+</head>
+<body>
+    <div class="google">
+        <img src="./img/logo1.png" alt="">
+    </div> 
+    <div class="googlesearch">
+        <form onsubmit="return search()">
+            <img src="./img/fangdajing.jfif" class="search">
+            <input type="text" id="main"
+            value="在google上搜索，或者输入一个网址"
+            onfocus="if(value=='在google上搜索，或者输入一个网址')value=''"
+            onblur="if(!value)value='在google上搜索，或者输入一个网址'"
+            name="keyword">
+            <img src="./img/语言.jfif" class="yuyin">
+        </form>
+    </div>
+
+
+</body>
+</html>
